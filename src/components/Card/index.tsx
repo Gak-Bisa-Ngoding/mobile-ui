@@ -31,6 +31,7 @@ const Card: React.FC<CardProps> = ({ name, price, image, alt = "", tags }) => {
                 break
             case "Salty":
                 color = "bg-sky-500"
+                break
             default:
                 break;
         }
