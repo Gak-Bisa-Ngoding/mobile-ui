@@ -5,9 +5,9 @@ import {
   RouterProvider,
   RouteObject,
 } from "react-router-dom";
-import { Login } from "./pages/Login";
+import { Home } from "./pages/Home";
 
-const routes: RouteObject[] = [{ path: "/", element: <Login /> }];
+const routes: RouteObject[] = [{ path: "/", element: <Home /> }];
 
 const router = createBrowserRouter(routes);
 
